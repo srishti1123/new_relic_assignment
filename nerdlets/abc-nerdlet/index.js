@@ -7,7 +7,7 @@ import { Grid, GridItem } from "nr1";
 const index = () => {
 return (
 <div className="heading">
-<h1>hiii everyone</h1>
+<h1>New Relic Assignmnet</h1>
 <AreaChart
 accountId={4438260}
 query="SELECT average(transmitBytesPerSecond) AS `Transmit bytes per second`, average(receiveBytesPerSecond) AS `Receive bytes per second` FROM NetworkSample WHERE (entityGuid = 'NDQzODI2MHxJTkZSQXxOQXwyNDEzMzU5OTc4MDM1MjEwOTU4') TIMESERIES AUTO"
